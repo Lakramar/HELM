@@ -1,0 +1,11 @@
+We started from scratch and as a first step we installed Helm Chart on the development box
+Then we created our first Helm Chart using $ helm create springboot
+After the helm chart creation, we went through the structure of Helm Chart
+We explored some of the utility commands provided by the helm .i.e. $ helm template springboot
+Then we have seen how to do -dry-run for the Helm Release
+After verifying our Helm Chart then we executed helm install $ myfirstspringboot springboot
+We used $helm list -a to verify the helm release
+Then we have used $ helm upgrade command to upgrade the release
+Finally, we rolled back and delete the release
+
+Docker image which used in the demo:   "rahulwagh17/jhooq-k8s-springboot:jhooq-k8s-springboot"
